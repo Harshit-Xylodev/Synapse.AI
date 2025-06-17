@@ -1,115 +1,97 @@
-<!-- Improved compatibility of back to top link -->
-<a name="readme-top"></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Synapse.AI – Smart AI Assistant</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-<!-- Shields -->
-<div align="center" markdown="1">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between px-4 py-3">
+      <div class="flex items-center space-x-2">
+        <img src="https://i.imgur.com/bErDYZx.png" alt="Synapse.AI Logo" class="w-10 h-10">
+        <span class="text-xl font-bold text-blue-600">Synapse.AI</span>
+      </div>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="text-blue-600 hover:underline">About</a>
+        <a href="#install" class="hover:text-blue-600">Install</a>
+        <a href="#features" class="hover:text-blue-600">Features</a>
+        <a href="#roadmap" class="hover:text-blue-600">Roadmap</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+  <main class="container mx-auto px-4 py-10">
+    <!-- Hero -->
+    <section class="text-center mb-12">
+      <h1 class="text-4xl font-extrabold mb-4 text-gray-900">Your Smart AI Assistant</h1>
+      <p class="text-lg text-gray-700 mb-6">Built using OpenAI, Tauri, Vue.js & Tailwind CSS. <br> Experience faster, smarter virtual conversations.</p>
+      <a href="https://github.com/Harshit-Xylodev/Synapse.AI" class="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition">View on GitHub</a>
+    </section>
 
-</div>
+    <!-- About -->
+    <section id="about" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">About Synapse.AI</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Synapse.AI is a next-gen virtual assistant powered by OpenAI APIs. It’s built for developers and productivity lovers who want an intuitive, privacy-focused AI assistant right on their desktop — without needing to open a browser.
+      </p>
+    </section>
 
-<!-- Project Logo -->
-<br />
-<div align="center">
-  <a>
-    <img src="https://i.imgur.com/bErDYZx.png" alt="Logo" width="180" height="180">
-  </a>
-
-<h3 align="center">Synapse.AI</h3>
-
-<div align="center">
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f6ced0797172407f90e4b10b0b744c65)](https://app.codacy.com/gh/Harshit-Xylodev/Synapse.AI/dashboard)
-
-</div>
-
-  <p align="center">
-An OpenAI-powered alternative virtual assistant client designed for intelligent and seamless interaction.<br />
-<a href="https://github.com/Harshit-Xylodev/Synapse.AI"><strong>Explore the docs »</strong></a>
-    <br /><br />
-    <a href="https://synapse.krozt.dev/">View Demo</a>
-    ·
-    <a href="https://github.com/Harshit-Xylodev/Synapse.AI/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Harshit-Xylodev/Synapse.AI/pulls">Request Feature</a>
-  </p>
-</div>
-
----
-
-## Table of Contents
-
-<details>
-  <summary>Click to expand</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <ul>
-      <li><a href="#screenshots">Screenshots</a></li>
-      <li><a href="#built-with">Built With</a></li>
-      <li><a href="#packages">Packages</a></li>
-    </ul>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <ul><li><a href="#installation">Installation</a></li></ul>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#internationalization">Internationalization</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
----
-
-## About The Project
-
-**Synapse.AI** is a cross-platform AI-powered assistant app built using modern frameworks like Vue, Tauri, and Tailwind. Inspired by smart virtual assistants, it integrates OpenAI APIs and offers advanced text, speech, and image capabilities through tools like GPT and DALL·E.
-
-### Screenshots
-
-<details>
-  <summary>Show</summary>
-
-_WIP - Coming Soon_
-
-</details>
-
-### Built With
-
-- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-- ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-- ![Rust](https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust)
-- ![Tauri](https://img.shields.io/badge/Tauri-000000?style=for-the-badge&logo=tauri&logoColor=white)
-- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### Packages
-
-- `@heroicons/vue`
-- `@intlify/unplugin-vue-i18n`
-- `@tauri-apps/api`
-- `axios`
-- `daisyui`
-- `firebase`
-- `pinia`
-- `theme-change`
-- `vue`
-- `vue-i18n`
-- `vue-router`
-
----
-
-## Getting Started
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/Harshit-Xylodev/Synapse.AI.git
+    <!-- Installation -->
+    <section id="install" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Getting Started</h2>
+      <pre class="bg-gray-100 p-4 rounded text-sm overflow-auto"><code># Clone the repo
+git clone https://github.com/Harshit-Xylodev/Synapse.AI
 
 # Install dependencies
 yarn install
+
+# Set your API keys
+SYNAPSE_OPENAI_API_KEY=your_api_key
+
+# Run the app
+yarn dev</code></pre>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Key Features</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Built with Vue.js, Tauri (Rust), and Tailwind CSS</li>
+        <li>OpenAI GPT & Whisper integration</li>
+        <li>Image generation via DALL·E</li>
+        <li>Dark mode & Mobile Responsive UI</li>
+        <li>Language support and Firebase integration</li>
+      </ul>
+    </section>
+
+    <!-- Roadmap -->
+    <section id="roadmap" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Roadmap</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>✅ Dark Mode UI</li>
+        <li>✅ Mobile-Friendly Layout</li>
+        <li>🔄 Voice recognition (Web + Whisper)</li>
+        <li>🔄 Authentication & User Profiles</li>
+        <li>🔄 Auto Language Detection</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Connect</h2>
+      <p class="text-gray-700">Project by <strong>Harshit</strong> @ <a href="https://github.com/Harshit-Xylodev" class="text-blue-600 underline">Harshit-Xylodev</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/harshitxylo/" target="_blank" class="text-blue-600 underline">harshitxylo</a></p>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 border-t py-4">
+    © 2025 Synapse.AI – Open Source MIT License
+  </footer>
+
+</body>
+</html>
